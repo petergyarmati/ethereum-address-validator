@@ -2,19 +2,17 @@ Ethereum Address Validator
 --
 (c) by Andrzej Budzanowski <kontakt@andrzej.budzanowski.pl>
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/6ed9a66abca4f38be143/maintainability)](https://codeclimate.com/github/psychob/ethereum-address-validator/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/6ed9a66abca4f38be143/test_coverage)](https://codeclimate.com/github/psychob/ethereum-address-validator/test_coverage) [![Build Status](https://travis-ci.org/psychob/ethereum-address-validator.svg?branch=master)](https://travis-ci.org/psychob/ethereum-address-validator)
-
 ## License
 MPL-2.0
 
 ## Brief
-Class that verifies if [Ethereum](https://www.ethereum.org/) address is properly formatted and - optionaly - properly checksummed according to [EIP-55](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md).
+Class that verifies if [Ethereum](https://www.ethereum.org/) or BSC address is properly formatted and - optionaly - properly checksummed according to [EIP-55](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md).
 
 ## Installation
 Use composer:
 
 ```bash
-composer require psychob/ethereum-address-validator
+composer require mrgyarmati/ethereum-address-validator
 ```
 
 ## Usage
